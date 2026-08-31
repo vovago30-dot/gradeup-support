@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GradeUp — Політика конфіденційності</title>
+<style>
+  :root {
+    --bg: #0F0F11;
+    --accent: #39FF14;
+    --card: #18181B;
+    --text-secondary: #9CA3AF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px 80px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .logo {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--accent), #17B80B);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+  }
+  .updated { color: var(--text-secondary); font-size: 13px; margin-bottom: 32px; }
+  h2 {
+    font-size: 19px;
+    font-weight: 800;
+    color: var(--accent);
+    margin-top: 36px;
+    margin-bottom: 12px;
+  }
+  p, li { color: #D1D5DB; font-size: 15px; margin-bottom: 10px; }
+  ul { padding-left: 22px; margin-bottom: 14px; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card);
+    border: 1px solid rgba(57, 255, 20, 0.2);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-top: 16px;
+  }
+  .footer {
+    margin-top: 48px;
+    font-size: 12px;
+    color: #4B5563;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">GRADEUP</div>
+    <h1>Політика конфіденційності</h1>
+    <div class="updated">Останнє оновлення: 31 серпня 2026 р.</div>
+
+    <p>
+      GradeUp — освітній застосунок для школярів, вчителів та директорів шкіл, що працює
+      за програмою НУШ. Ця політика пояснює, які дані ми збираємо, як їх використовуємо
+      та як захищаємо.
+    </p>
+
+    <h2>Які дані ми збираємо</h2>
+    <ul>
+      <li><strong>Обліковий запис:</strong> електронна пошта та пароль (зберігається у зашифрованому вигляді) для входу в застосунок.</li>
+      <li><strong>Навчальні дані:</strong> результати тестів, прогрес, рівні, зароблені монети та досягнення в межах гейміфікованої системи.</li>
+      <li><strong>Дані профілю вчителя/директора:</strong> ім'я, школа, клас, дані про учнів у межах керування навчальним процесом.</li>
+      <li><strong>Технічні дані:</strong> тип пристрою, версія ОС, дані про збої застосунку (діагностика) — для покращення стабільності роботи.</li>
+      <li><strong>Дані підписки:</strong> статус активної підписки GradeUp Pro обробляється через RevenueCat та App Store/Google Play; ми не бачимо і не зберігаємо дані банківської картки.</li>
+    </ul>
+
+    <div class="card">
+      <h2 style="margin-top:0">Захист даних учнів</h2>
+      <p>
+        Реальні імена учнів <strong>ніколи не передаються на наші сервери</strong>.
+        Замість імені використовується анонімний ідентифікатор (акронім), який генерується
+        локально на пристрої вчителя. Це зроблено навмисно, щоб мінімізувати обробку
+        персональних даних неповнолітніх.
+      </p>
+    </div>
+
+    <h2>Як ми використовуємо дані</h2>
+    <ul>
+      <li>Для функціонування застосунку: авторизація, збереження прогресу, синхронізація між пристроями.</li>
+      <li>Для гейміфікації: нарахування монет, рівнів, досягнень.</li>
+      <li>Для AI-функцій (пояснення тем, генерація навчального контенту) — запити обробляються через сторонній AI-сервіс без прив'язки до реального імені учня.</li>
+      <li>Для сповіщень: push-повідомлення про нові завдання, результати, нагадування.</li>
+      <li>Для покращення застосунку: анонімна діагностика збоїв.</li>
+    </ul>
+
+    <h2>Ми не продаємо ваші дані</h2>
+    <p>
+      GradeUp не продає персональні дані третім сторонам і не використовує їх для
+      рекламного таргетингу.
+    </p>
+
+    <h2>Сторонні сервіси</h2>
+    <p>Для роботи застосунку ми використовуємо такі сторонні сервіси, кожен з яких має власну політику конфіденційності:</p>
+    <ul>
+      <li><strong>Supabase</strong> — зберігання даних та автентифікація.</li>
+      <li><strong>Firebase (Google)</strong> — push-сповіщення.</li>
+      <li><strong>RevenueCat</strong> — обробка підписок GradeUp Pro.</li>
+    </ul>
+
+    <h2>Діти та навчальні заклади</h2>
+    <p>
+      GradeUp призначений для використання учнями 5–11 класів під наглядом вчителів
+      та шкіл. Школи та вчителі, що реєструють учнів у системі, відповідають за
+      отримання необхідних дозволів згідно з чинним законодавством про освіту.
+    </p>
+
+    <h2>Ваші права</h2>
+    <p>
+      Ви можете запросити перегляд, виправлення або видалення своїх даних, написавши
+      на <a href="mailto:support.gradeup@gmail.com">support.gradeup@gmail.com</a>.
+    </p>
+
+    <h2>Зміни до цієї політики</h2>
+    <p>
+      Ми можемо оновлювати цю політику. Про суттєві зміни повідомимо через застосунок
+      або електронну пошту.
+    </p>
+
+    <h2>Контакти</h2>
+    <p>
+      З питань щодо конфіденційності звертайтесь: <a href="mailto:support.gradeup@gmail.com">support.gradeup@gmail.com</a>
+    </p>
+
+    <div class="footer">© 2026 GradeUp</div>
+  </div>
+</body>
+</html>
